@@ -4,4 +4,12 @@
 
 def roll
   # code goes here
+  array = []
+  (1..6).each do |x|
+  	array << x 
+  end
+
+
+  
+  return (1 +rand(6))
 end
