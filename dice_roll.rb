@@ -1,7 +1,11 @@
-# Create method `roll` that returns a random number between 1 and 6
+def roll() rand(6) + 1 end
 
-# Feel free to google "how to generate a random number in ruby"
+=begin
 
-def roll
-  # code goes here
-end
+# also works, and can be changed to work with other ranges like letters:
+
+def roll() (1..6).to_a[rand(6)] end
+# letters:
+# def roll() ("a".."z").to_a[rand(26)] end
+
+=end
