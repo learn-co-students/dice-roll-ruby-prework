@@ -4,4 +4,7 @@
 
 def roll
   # code goes here
+  1 + rand(6) #1st method
+  number = [1, 2, 3, 4, 5, 6] #2nd method
+  number.sample #2nd method
 end
