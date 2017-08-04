@@ -3,5 +3,12 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-  # code goes here
+  rolls = [1, 2, 3, 4, 5, 6]
+  return rolls.sample
 end
+
+
+# def roll
+#   rolls = rand(1..6)
+#   return rolls
+# end
