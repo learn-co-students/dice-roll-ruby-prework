@@ -3,5 +3,6 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
+    return rand(1..6) #random number between 1 and 6, inclusive.
   # code goes here
 end
