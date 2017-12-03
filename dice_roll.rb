@@ -5,3 +5,5 @@
 def roll
   return rand(6) + 1
 end
+#This is the method suggested in "The Well-Grounded Rubyist"
+#(6) is equivalent to (1..6) and (1...7), both of which also yield the same result
