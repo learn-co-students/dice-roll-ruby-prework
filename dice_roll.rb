@@ -3,5 +3,8 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-  # code goes here
+  # rand(1..6)  #using range
+
+  #using rand with array
+  [1,2,3,4,5,6].sample
 end
