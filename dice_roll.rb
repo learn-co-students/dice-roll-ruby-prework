@@ -5,6 +5,5 @@
 require 'pry'
 
 def roll
-    die = [1,2,3,4,5,6]
-    die.shuffle.at(0)
+    [1,2,3,4,5,6].shuffle.at(0)
 end
