@@ -4,4 +4,6 @@
 
 def roll
   # code goes here
+  nums =* (1..6)
+  chosen_num = nums[rand(0..5)]
 end
