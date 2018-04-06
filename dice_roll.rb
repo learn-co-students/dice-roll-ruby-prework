@@ -2,6 +2,14 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
+#solution using only ranges
+#def roll
+#  rand(1..6)
+#end
+
+#solution using ranges and an array.
+#the to_a method 'returns self' here, making the range into an array
 def roll
-  # code goes here
+  die = (1..6).to_a
+  die.sample
 end
