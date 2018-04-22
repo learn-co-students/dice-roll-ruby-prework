@@ -4,4 +4,7 @@
 
 def roll
   # code goes here
+  #rand(1..6)
+  feeling_lucky = [1,2,3,4,5,6]
+  feeling_lucky[rand(0..5)]
 end
