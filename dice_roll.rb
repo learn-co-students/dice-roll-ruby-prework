@@ -3,5 +3,6 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-  # code goes here
+  dice_numbers = Array (1..6)
+  return dice_numbers.sample()
 end
