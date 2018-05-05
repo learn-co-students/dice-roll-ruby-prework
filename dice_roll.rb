@@ -4,4 +4,6 @@
 
 def roll
   # code goes here
+  random_num = Random.new
+  random_num.rand(6)+1
 end
