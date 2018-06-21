@@ -4,4 +4,6 @@
 
 def roll
   # code goes here
+  array = [1, 2, 3, 4, 5, 6]
+  die_roll = array[rand(array.length)]
 end
