@@ -3,7 +3,7 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-  which_method? = rand(1)
+  which_method = rand(2)
   array = (1..6).to_a
-  return (which_method? == 1) ? rand(0..6) : array[rand(6)]
+  return (which_method == 1) ? rand(1..6) : array[rand(6)]
 end
