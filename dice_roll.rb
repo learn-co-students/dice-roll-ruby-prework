@@ -3,5 +3,8 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
+  random_diceroll = 1 + rand(6)
+  puts random_diceroll
+  return random_diceroll
   # code goes here
 end
