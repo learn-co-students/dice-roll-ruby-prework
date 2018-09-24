@@ -4,4 +4,7 @@
 
 def roll
   # code goes here
+  rand(1..6)
+  # Using an array:
+  # (1..6).to_a.sample
 end
