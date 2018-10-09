@@ -3,5 +3,14 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-  # code goes here
+  rand(1..6)
 end
+
+
+#BONUS
+=begin
+def roll
+  dice = (1..6).to_a
+  dice[rand(0..5)]
+end
+=end
