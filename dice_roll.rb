@@ -4,4 +4,7 @@
 
 def roll
   # code goes here
+  random = 0 + rand(6)
+  array = (1..6).to_a
+  return array[random]
 end
