@@ -3,5 +3,8 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-  # code goes here
+  6.times do |i|
+    print i
 end
+
+roll
