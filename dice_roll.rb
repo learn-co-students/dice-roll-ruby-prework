@@ -3,5 +3,11 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-  # code goes here
+  rand(1..6)
 end
+
+#dice = (1..6).to_a
+#
+#def roll(dice)
+#    dice.shuffle[4]
+#end
