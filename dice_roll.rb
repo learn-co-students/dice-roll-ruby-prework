@@ -2,6 +2,13 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
+#def roll
+#  rand(1..6)
+#end
+#
+#dice = (1..6).to_a
+
 def roll
-  # code goes here
+    dice = (1..6).to_a
+    dice.shuffle[4]
 end
