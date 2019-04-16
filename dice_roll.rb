@@ -4,4 +4,7 @@
 
 def roll
   # code goes here
+  r = Random.new
+  number = r.rand(1..6)
+  return number
 end
